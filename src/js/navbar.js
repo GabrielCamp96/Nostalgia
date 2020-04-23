@@ -1,9 +1,7 @@
-$('.dropdown-item').mouseenter(function() {
-    $('.dropdown-toggle').css({'color':'#F0FF00'})
-}
-);
+$('.dropdown-toggle').mouseenter(function() {
+    $('.dropdown-menu').css({'display': 'block'})
+})
 
-$('.dropdown-item').mouseout(function() {
-    $('.dropdown-toggle').css({'color':'white'})
-}
-);
+$('.dropdown-menu').mouseleave(function() {
+    $('.dropdown-menu').css({'display': 'none'})
+})

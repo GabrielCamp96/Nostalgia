@@ -1,3 +1,18 @@
+@font-face {
+    font-family: PoppinsBold;
+    src: url('../webfonts/Poppins-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: PoppinsSemiBold;
+    src: url('../webfonts/Poppins-SemiBold.ttf');
+  }
+
+  @font-face {
+    font-family: PoppinsRegular;
+    src: url('../webfonts/Poppins-Regular.ttf');
+  }
+
 .purple-bar {
     height: 5px;
     width: 100%;
@@ -6,6 +21,7 @@
 
 .navbar, .dropdown-menu {
     background-color: black;
+    font-family: PoppinsRegular;
 }
 
 .dropdown-item:hover, .nav-link:hover {
@@ -13,18 +29,23 @@
     color: #F0FF00;
 }
 
-.dropdown:hover {
-    color: #F0FF00;
-
-}
-
 .navbar a, .dropdown-menu a {
     color: white;
 }
 
+.dropdown-toggle {
+    color: #F0FF00 !important;
+}
+
+.nav-item, dropdown-item {
+    font-family: PoppinsSemiBold;
+}
+
 .evidence {
     background-color: #F0FF00;
+    font-family: PoppinsBold;
     color: black;
+    font-weight: bold;
     padding-bottom: 3px;
     padding-left: 3px;
     padding-right: 3px;
