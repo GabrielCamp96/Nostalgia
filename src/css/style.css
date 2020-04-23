@@ -1,0 +1,31 @@
+.purple-bar {
+    height: 5px;
+    width: 100%;
+    background-color: purple;
+}
+
+.navbar, .dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item:hover, .nav-link:hover {
+    background-color: black;
+    color: #F0FF00;
+}
+
+.dropdown:hover {
+    color: #F0FF00;
+
+}
+
+.navbar a, .dropdown-menu a {
+    color: white;
+}
+
+.evidence {
+    background-color: #F0FF00;
+    color: black;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
