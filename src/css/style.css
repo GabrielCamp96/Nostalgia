@@ -50,3 +50,41 @@
     padding-left: 3px;
     padding-right: 3px;
 }
+
+.introbg{
+    float: right;
+    position: absolute;
+    height: auto;
+    width: 65%;
+    right:0;
+    filter: sepia(70%);
+}
+
+.introtext {
+    background-color: white;
+    width: 35%;
+    vertical-align: middle;
+}
+
+.introtext .t1 {
+    font-family: PoppinsBold;
+    font-size: 5em;
+    line-height: .7;
+}
+
+.introtext .t2 {
+    font-family: PoppinsRegular;
+    line-height: .9;
+    font-size: 3em;
+}
+
+.introtext .evidence {
+    background-color: #F0FF00;
+    font-family: PoppinsBold;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
